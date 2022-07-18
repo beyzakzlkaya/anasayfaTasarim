@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.kapsam{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    font-size: 20px;
+    display: flex;
+   justify-content: space-between;
+    min-height: 30px;
+    align-items: center;  
+}
+ul{
+    list-style: none;
+}
+.menu ul{
+    display: flex;
+    margin: 10px;
+}
+.menu ul li{
+    margin: 15px;
+}
+.logo h1 a{
+    text-decoration: none;
+}
+.menu li a{
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(241, 166, 4);
+    opacity: 80%;
+    transition: 1sn;
+}
+.main{
+    min-height: 30px;
+    background-color:#2C3A47;
+    display: flex;
+}
+.main .resim img{
+    display: block;
+    width: 100%;
+}
+.main .yazi{
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: 20px;
+}
+.footer{
+    min-height: 30px;
+    
+}
